@@ -21,13 +21,6 @@ public class Crawlee extends BaseTest {
     @FindBy(xpath = "//h1[@class='title_xvU1']")
     private WebElement title;
 
-    // REMOVED: The constructor with WebDriver argument.
-    // ADDED: A method or logic to initialize PageFactory.
-
-    // public Crawlee(){
-    //     PageFactory.initElements(driver,this);
-    // }
-
    @Test
 public void validating_Menu_Item_Label_Match_To_Title() throws InterruptedException {
     WebDriverWait wait = new WebDriverWait(driver, Duration.ofSeconds(40));
@@ -68,12 +61,7 @@ public void validating_Menu_Item_Label_Match_To_Title() throws InterruptedExcept
         "Header and title Matched", 
         "Header and title are not matched"
     );
-        
-
-    
-        // Note: If clicking the link takes you to a different page 
-        // and the sidebar disappears, you MUST add:
-        // driver.navigate().back(); 
+         
     }
     
    
