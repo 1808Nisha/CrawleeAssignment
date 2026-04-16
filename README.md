@@ -160,10 +160,7 @@ url= https://crawlee.dev/blog/crawlee-v3-16
 - Detailed reporting
 - Clean and maintainable code
 
----
-
 ## 👤 Author
 
 Nisha Sharma 
 https://github.com/1808Nisha/CrawleeAssignment
-```
